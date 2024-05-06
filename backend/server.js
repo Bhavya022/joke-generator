@@ -12,6 +12,9 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const port = process.env.PORT || 8080;
 
 // // API endpoint to generate jokes
+app.get('/',async(req,res)=>{
+  res.send('welcome to Joke-Generator')
+})
 app.post('/generate-joke', async (req, res) => {
   try {
     // Extract keyword from request body
