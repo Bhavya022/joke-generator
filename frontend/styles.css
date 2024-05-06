@@ -1,0 +1,13 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+#jokeContainer {
+    margin-top: 20px;
+}
