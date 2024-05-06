@@ -10,7 +10,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 // Set port from environment variable or default to 8080
 const port = process.env.PORT || 8080;
-//API_KEY = sk-proj-JwXHDGT31L2aGqgyUxHIT3BlbkFJMt0ECI7N8Skm5sImNlNN
+//op = sk-proj-JwXHDGT31L2aGqgyUxHIT3BlbkFJMt0ECI7N8Skm5sImNlNN
 // // API endpoint to generate jokes
 app.get('/',async(req,res)=>{
   res.send('welcome to Joke-Generator')
