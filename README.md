@@ -57,6 +57,10 @@ This is a simple joke generator web application that generates jokes based on us
 ```bash
 https://joke-generator-backend-e319.onrender.com/
 ```
+## Frontend Deploy Link :-
+```bash
+https://effervescent-yeot-ba5d0c.netlify.app/
+```
 ## Contributing
 
 Contributions are welcome! Feel free to submit pull requests or open issues for any bugs or feature requests.
