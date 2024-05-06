@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const keyword = keywordInput.value;
 
         try {
-            const response = await fetch('http://localhost:8080/generate-joke', {
+            const response = await fetch('https://joke-generator-backend-e319.onrender.com/generate-joke', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
