@@ -10,7 +10,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 // Set port from environment variable or default to 8080
 const port = process.env.PORT || 8080;
-
+//API_KEY = sk-proj-JwXHDGT31L2aGqgyUxHIT3BlbkFJMt0ECI7N8Skm5sImNlNN
 // // API endpoint to generate jokes
 app.get('/',async(req,res)=>{
   res.send('welcome to Joke-Generator')
@@ -25,7 +25,7 @@ app.post('/generate-joke', async (req, res) => {
     const keyword = req.body.keyword;
 
     // Check if API key is set in environment variable
-    const API_KEY = process.env.G_API_KEY;
+    const API_KEY = 'AIzaSyDIRX6yaJpb4bqQuK0LleGnndj0pM69pgA';
     if (!API_KEY) {
       return res.status(401).json({ message: 'Missing G_API_KEY environment variable' });
     }
